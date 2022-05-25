@@ -8,17 +8,17 @@ Customer churn, also known as customer attrition, customer turnover, or customer
 
 - initial hypotheses and/or questions you have of the data, ideas
 
-Does tech support affect different rates of churn?
-𝐻0  : tech support does not affect churn
-𝐻𝑎  : tech support does affect a customer churning
+- Does tech support affect different rates of churn?
+- 𝐻0  : tech support does not affect churn
+- 𝐻𝑎  : tech support does affect a customer churning
 
-Does device protection affect different rates of churn?
-𝐻0  : device protection does not affect churn
-𝐻𝑎  : device protection does affect a customer churning
+- Does device protection affect different rates of churn?
+- 𝐻0  : device protection does not affect churn
+- 𝐻𝑎  : device protection does affect a customer churning
 
-Does online security affect different rates of churn?
-𝐻0  : having online security does not affect churn
-𝐻𝑎  : online security does affect a customer churning
+- Does online security affect different rates of churn?
+- 𝐻0  : having online security does not affect churn
+- 𝐻𝑎  : online security does affect a customer churning
 
 Having additional services prevents a customer from churning
 
