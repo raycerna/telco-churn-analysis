@@ -6,9 +6,21 @@ This is a repository for the Telco churn classification project.
 Customer churn, also known as customer attrition, customer turnover, or customer defection, is the loss of clients or customers. In the telecommunication industry it is critical to retain customers because it is often more costly to acquire new ones. The goal of this project is to find identify those drivers which cause customer churn at Telco.
 
 
-
 - initial hypotheses and/or questions you have of the data, ideas
 
+Does tech support affect different rates of churn?
+𝐻0  : tech support does not affect churn
+𝐻𝑎  : tech support does affect a customer churning
+
+Does device protection affect different rates of churn?
+𝐻0  : device protection does not affect churn
+𝐻𝑎  : device protection does affect a customer churning
+
+Does online security affect different rates of churn?
+𝐻0  : having online security does not affect churn
+𝐻𝑎  : online security does affect a customer churning
+
+Having additional services prevents a customer from churning
 
 
 - Data dictionary from Raw Data
@@ -39,8 +51,15 @@ Customer churn, also known as customer attrition, customer turnover, or customer
 |contract_type              | Two-year, One-year, Month-to-month       | object          |
 |payment_type               | different types of payment methods       | object          |
 
+
+
 - project planning (lay out your process through the data science pipeline)
+
+
 
 - instructions or an explanation of how someone else can reproduce your project and findings (What would someone need to be able to recreate your project on their own?)
 
+
+
 - key findings, recommendations, and takeaways from your project.
+
