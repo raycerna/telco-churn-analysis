@@ -19,7 +19,7 @@ def split_telco_data(df):
 
 def prep_telco_data(df):
     # Drop duplicate columns
-    # df.drop(columns=['payment_type_id', 'internet_service_type_id', 'contract_type_id', 'customer_id'], inplace=True)
+    
        
     # Drop null values stored as whitespace    
     df['total_charges'] = df['total_charges'].str.strip()
