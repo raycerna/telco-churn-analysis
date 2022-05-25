@@ -106,7 +106,7 @@ def prep_telco_data(df):
     # #return train, validate, test
 
 
-def percentage_stacked_plot(columns_to_plot, title):
+def percentage_stacked_plot(columns_to_plot, title, telco_df):
     
     '''
     Returns a 100% stacked plot of the response variable for independent variable of the list columns_to_plot.
