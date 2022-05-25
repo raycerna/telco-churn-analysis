@@ -131,14 +131,14 @@ def percentage_stacked_plot(columns_to_plot, super_title):
 
         # calculate the percentage of observations of the response variable for each group of the independent variable
         # 100% stacked bar plot
-        prop_by_independent = pd.crosstab(prep_telco_data[column], prep_telco_data['churn']).apply(lambda x: x/x.sum()*100, axis=1)
+        prop_by_independent = pd.crosstab(telco_df[column], telco_df['churn']).apply(lambda x: x/x.sum()*100, axis=1)
 
         prop_by_independent.plot(kind='bar', ax=ax, stacked=True,
-                                 rot=0, color=['springgreen','salmon'])
+                                 rot=0, color=['green','red'])
 
         # set the legend in the upper right corner
         ax.legend(loc="upper right", bbox_to_anchor=(0.62, 0.5, 0.5, 0.5),
-                  title='churn', fancybox=True)
+                  title='Churn', fancybox=True)
 
         # set title and labels
         ax.set_title('Proportion of observations by ' + column,
