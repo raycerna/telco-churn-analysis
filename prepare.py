@@ -143,3 +143,5 @@ def percentage_stacked_plot(columns_to_plot, title):
             ax.spines[spine_name].set_visible(False)
 
     return percentage_stacked_plot
+
+ 
