@@ -1,10 +1,12 @@
-# Telco-Churn-Analysis
+# Predicting Churn at Telco
 
 This is a repository for the Telco churn classification project.
 
 1. Readme(.md)
 
 - project description with goals
+
+
 
 - initial hypotheses and/or questions you have of the data, ideas
 
