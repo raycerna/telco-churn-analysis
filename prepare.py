@@ -72,14 +72,13 @@ def prep_telco_data(df):
     
     df['streaming_tv'] = df.streaming_tv.replace({'No internet service': 0, 'No': 0, 'Yes': 1})
 
-
-
     # Drop duplicate columns
     #df.drop(columns=['payment_type_id', 'internet_service_type_id', 'contract_type_id', 'customer_id'], inplace=True)
        
     # Drop null values stored as whitespace    
-    df['total_charges'] = df['total_charges'].str.strip()
-    df = df[df.total_charges != '']
+    #df['total_charges'] = df['total_charges'].str.strip()
+    #df = df[df.total_charges != '']
+
     
     # Convert to correct datatype
     #df['total_charges'] = df.total_charges.astype(float)
