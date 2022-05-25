@@ -1,6 +1,7 @@
+import math
 import pandas as pd
 import numpy as np
-import math
+
 
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
@@ -144,4 +145,4 @@ def percentage_stacked_plot(columns_to_plot, title):
 
     return percentage_stacked_plot
 
- 
+
