@@ -133,7 +133,7 @@ def percentage_stacked_plot(columns_to_plot, title, telco_df):
         prop_by_independent = pd.crosstab(telco_df[column], telco_df['churn']).apply(lambda x: x/x.sum()*100, axis=1)
 
         prop_by_independent.plot(kind='bar', ax=ax, stacked=True,
-                                 rot=0, color=['#0072BD','pink'])
+                                 rot=0, color=['#94bad4','#ebb086'])
 
         # set the legend in the upper right corner
         ax.legend(loc="upper right", bbox_to_anchor=(0.62, 0.5, 0.5, 0.5),
